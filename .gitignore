@@ -1,0 +1,7 @@
+# IDE ignores
+ 
+/.idea/
+/target/
+/allure-report/
+**/*.iml
+**/*.exe
