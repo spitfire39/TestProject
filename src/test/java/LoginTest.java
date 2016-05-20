@@ -15,6 +15,7 @@ public class LoginTest extends BaseTest{
             @Issue("159"),
             @Issue("951")})
     @Test(dataProvider = "login", dataProviderClass = DataProviderTrello.class)
+    // the test logings in to the application and verifies that we are logged in by some username
     public void login(String email,
                       String password,
                       String userName){
